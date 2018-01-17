@@ -1,0 +1,27 @@
+# Site settings
+title:          Do Something.
+description:    "Do something what I want."
+baseurl:        ""
+url:            "https://nypark425.github.io"
+
+# Author
+author:
+  name:         ppknna
+  url:          https://nypark425.github.io
+  email:        nypark425@gmail.com
+
+# Build settings
+markdown:       kramdown
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
