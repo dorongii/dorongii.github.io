@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="row">
+    <div class="col-12 profile">
+        <div class="photo-left">
+            <img class="photo" src="/assets/image/profile.jpeg">
+        </div>
+        <h4 class="name">{{ site.author.name }}</h4>
+        <p class="info">{{ site.author.url }}</p>
+        <p class="info">{{ site.author.email }}</p>
+        <p class="desc">{{ site.author.desc }}</p>
+        
+        {{ content }}
+        
+        <div class="social">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+            <i class="fa fa-tumblr-square" aria-hidden="true"></i>
+        </div>
+    </div>
+</div>
