@@ -5,6 +5,15 @@ author: "Amber"
 permalink: /about/
 ---
 
+# 한국어 테스트.
+안녕하세요?
+
+이 블로그는 한국어가 어떻게 나올지 궁금하군요.
+과연 폰트를 새로 받아야할까요?
+우헤헤헤
+
+> 안녕하세요. 인용하는 곳입니다.
+
 A friend of mine writes short stories. One sunny day, I asked if he wanted a website to showcase his works and he agreed. I decided to use GitHub Pages to host his site. That way he wouldn't have to buy a domain and a server.
 
 While doing some research up on GitHub Pages, I accidentally chanced upon this _simple, blog-aware, static site generator_ called [Jekyll](https://jekyllrb.com/) which works really well with GitHub Pages. I figured it would do just fine for my friend and I set about searching for a pretty theme. I wanted a theme with a _book-ish_ vibe. Unfortunately, most of the themes were too modern. Eventually, I caved and begun working on my own theme. With the help of [Poole](https://github.com/poole/poole), the Jekyll Butler, I was able to build **Tale**.
