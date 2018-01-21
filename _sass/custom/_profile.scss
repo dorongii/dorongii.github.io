@@ -14,6 +14,7 @@
 .profile .name {
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 10px;
   font-weight: 600;
   font-size: 18pt;
   color: #777;
@@ -40,19 +41,17 @@
 .social {
   margin: 5px 0 12px 0;
   text-align: center;
-  display: inline-block;
   font-size: 20pt;
 }
 
 .social i {
   cursor: pointer;
-  margin: 0 15px;
+  margin: 0 10px;
 }
 
-.social i:nth-child(1)  { color: #4267b2; }
-.social i:nth-child(2)  { color: #1da1f2; }
-.social i:nth-child(3)  { color: #bd081c; }
-.social i:nth-child(4)  { color: #36465d; }
+.social a:nth-child(1)  { color: #d34836; }
+.social a:nth-child(2)  { color: #6e5494; }
+.social a:nth-child(3)  { color: #0077B5; }
 
 .left {
   display: flex;
