@@ -14,7 +14,7 @@ footer,
 }
 
 main {
-  margin-top: 90px;
+  margin-top: 60px;
 }
 
 .nav {
@@ -77,10 +77,6 @@ main {
 }
 
 @media (min-width: 600px) {
-  main {
-    margin-top: 60px;
-  }
-  
   .nav {
     &-container {
       text-align: left;
