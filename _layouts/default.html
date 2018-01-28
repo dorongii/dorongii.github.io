@@ -19,7 +19,7 @@
               <a class="dropbtn" href="javascript:false;" >Category</a>
               <div class="dropdown-content">
                 {% for category in site.categories %}
-                  <a href="/category/{{ category | first }}">{{ category | first }}</a>
+                  <a href="/category/{{ category | first }}">{{ category | first | capitalize }}</a>
                 {% endfor %}
               </div>
             </div>
