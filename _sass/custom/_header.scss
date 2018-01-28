@@ -6,6 +6,12 @@
     -o-background-size: cover;
     background-size: cover;
     height: 800px;
+    top: 0;
+    left: 0;
+
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
   }
   
   @media (min-width: 600px) {
