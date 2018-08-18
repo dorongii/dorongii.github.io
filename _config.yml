@@ -1,15 +1,15 @@
 # Site settings
 title:          Do Something.
-description:    "Do something what I want."
+description:    "The only source of knowledge is experience."
 baseurl:        ""
 url:            "https://nypark425.github.io"
 
 # Author
 author:
-  name:         Amber
+  name:         Zoe
   url:          https://nypark425.github.io
   email:        nypark425@gmail.com
-  desc:         안녕하세요, 관심분야가 두루두루 많은 개발자입니다.
+  desc:         안녕하세요, 반가워요.
 
 # Build settings
 markdown:       kramdown

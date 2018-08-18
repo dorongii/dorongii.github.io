@@ -1,7 +1,7 @@
 ---
 layout: about
 title: "About"
-author: "Amber"
+author: "Zoe"
 permalink: /about/
 ---
 
