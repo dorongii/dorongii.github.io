@@ -2,14 +2,15 @@
 title:          Do Something.
 description:    "The only source of knowledge is experience."
 baseurl:        ""
-url:            "https://nypark425.github.io"
+url:            "https://dorongii.github.io"
 
 # Author
 author:
   name:         Zoe
-  url:          https://nypark425.github.io
+  namekr:       나연(Na-yeon)
+  url:          https://dorongii.github.io
   email:        nypark425@gmail.com
-  desc:         안녕하세요, 반가워요.
+  desc:         안녕하세요, 하루하루의 행복을 추구하는 개발자입니다.
 
 # Build settings
 markdown:       kramdown
