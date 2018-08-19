@@ -1,31 +1,58 @@
-/* The container <div> - needed to position the dropdown content */
-.nav .dropdown {
-  position: relative;
-  display: inline-block;
+/* The side navigation menu */
+.sidenav {
+  height: 0;
+  width: 100%;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 90px; /* Place content 90px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  
+  @media (min-width: 600px) {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    padding-top: 60px; /* Place content 60px from the top */
+  }
 }
 
-/* Dropdown Content (Hidden by Default) */
-.nav .dropdown-content {
-  left: -50px;
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.2);
-  z-index: 100;
-}
-
-/* Links inside the dropdown */
-.nav .dropdown-content a {
-  padding: 10px 16px;
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
   text-decoration: none;
+  font-size: 14px;
+  color: #818181;
   display: block;
+  transition: 0.3s;
+
+  @media (min-width: 600px) {
+    font-size: 16px;
+  }
 }
 
-/* Change color of dropdown links on hover */
-.nav .dropdown-content a:hover {background-color: #f1f1f1}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
 
-/* Show the dropdown menu on hover */
-.nav .dropdown:hover .dropdown-content {
-  display: block;
+/* Style of the close button */
+.sidenav .close_btn {
+  font-size: 30px;
+
+  @media (min-width: 600px) {
+    font-size: 36px;
+  }
+}
+
+/* Opened side menu size */
+.opened_menu {
+  height: 100%;
+  width: 100%;
+  
+  @media (min-width: 600px) {
+    height: 100%;
+    width: 250px;
+  }
 }

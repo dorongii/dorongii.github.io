@@ -14,15 +14,18 @@ author:
 # Build settings
 markdown:       kramdown
 
-# Assets
+# Sass
 sass:
   sass_dir:     _sass
   style:        compressed
+
+# JS
+js_dir:         /assets/js
 
 # Gems
 plugins:
   - jekyll-paginate
 
 # Permalinks
-permalink:      /:year-:month-:day/:title
+permalink:      /post/:year-:month-:day/:title
 paginate:       5
