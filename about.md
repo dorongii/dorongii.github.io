@@ -1,24 +1,18 @@
 ---
 layout: about
 title: "About"
-author: "Zoe"
+author: "Joy"
 permalink: /about/
 ---
 
 ## Who am I?
-대한민국에서 살고 있는 20대 여성 개발자입니다.<br>
-남들만 없는 고양이를 한마리 키우고 있는 성공한 인생(?)을 살고 있습니다.
-
-I'm a woman developer living in Korea, Republic of.<br>
-I'm living a successful life with a cat that other people don't have.
-
-> 저는 있어요, 고양이! Look at my cat!
-
+I'm a woman programmer from the Republic of Korea.<br>
+Look at my *beautiful cat!*
 <img class="square_photo" src="/assets/image/coco2.jpeg">
 
 ## I Like...
 * Drawing
-* Designing
+* Singing
 * Reading Books (also Comic books)
 * Playing Games
 * Watching movie and tv drama
@@ -33,15 +27,9 @@ I'm living a successful life with a cat that other people don't have.
 * Software Developer Internship in *NAVER Corp* <br>(7/2016 ~ 8/2016)
 * Web Developer in *NAVER Corp* <br>(12/2016 ~ )
 
-## What can I do well?
-* Web(Html, CSS, Script...)
+## What can I do?
 * Java
+* Web(Html, CSS, Script...)
 * Spring Framework
-* C++
-* Javascript
-* Jquery
-
-## Have experience about typing more than 1 charaters...
+* Javascript, Jquery
 * Python
-* Swift
-* Shell script
