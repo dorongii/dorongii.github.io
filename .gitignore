@@ -7,3 +7,6 @@ Gemfile.lock
 # IntelliJ IDEA
 .idea/
 *.iml
+
+# Visual Studio Code
+*.code-workspace
