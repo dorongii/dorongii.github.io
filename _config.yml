@@ -10,7 +10,7 @@ author:
   namekr:       나연(Na-yeon)
   url:          https://staywithjoy.github.io
   email:        nypark425@gmail.com
-  desc:         하루 하루의 즐거움이 곧 삶이다.
+  desc:         하루 하루의 즐거움이 모여 삶을 이룬다.
 
 # Build settings
 markdown:       kramdown
@@ -20,13 +20,14 @@ sass:
   sass_dir:     _sass
   style:        compressed
 
-# JS
+# Static resources
 js_dir:         /assets/js
+img_dir:        /assets/image
 
 # Gems
 plugins:
   - jekyll-paginate
 
 # Permalinks
-permalink:      /post/:year-:month-:day/:title
+permalink:      /post/:title
 paginate:       5
